@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: yellow;
+}
+
+td:nth-child(1){
+    background-color: cyan;
+}
+
+td:nth-child(2){
+    background-color: black;
+    color:white;
+}
+
+td:nth-child(3){
+    background-color: pink;
+    color: red;
+}
